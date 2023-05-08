@@ -1,0 +1,17 @@
+{
+    "non_real_tasks": [
+        {"name": "P1", "arrival_time": 2, "burst_time": 3,"priority":0},
+        {"name": "P2", "arrival_time": 0, "burst_time": 5,"priority":1},
+        {"name": "P3", "arrival_time": 3, "burst_time": 1,"priority":2},
+        {"name": "P4", "arrival_time": 1, "burst_time": 2,"priority":1},
+        {"name": "P5", "arrival_time": 4, "burst_time": 6,"priority":2}
+    ],
+
+    "real_tasks": [
+        {"name": "P1", "arrival_time": 2, "burst_time": 3,"priority":0,"deadline":10,"period":15},
+        {"name": "P2", "arrival_time": 0, "burst_time": 5,"priority":1,"deadline":15,"period":25},
+        {"name": "P3", "arrival_time": 3, "burst_time": 1,"priority":2,"deadline":5,"period":10},
+        {"name": "P4", "arrival_time": 1, "burst_time": 2,"priority":1,"deadline":8,"period":15},
+        {"name": "P5", "arrival_time": 4, "burst_time": 6,"priority":2,"deadline":20,"period":30}
+    ]
+}
